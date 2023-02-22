@@ -62,11 +62,12 @@ export default function SelectDownloadModal(props) {
         </div>
 
 		<div >
-		<h3 style={{display:"flex" , justifyContent: "center" ,color:" #ED2939" }}>Note</h3>
-		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #ED2939" }} >*[PC-Build] is for OG Pass holders ONLY*</h4>
-		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #ED2939" }} >*[WebGL-Build] and [WebGL-Build mirror] will redirect to the same CROTOPIA Build*</h4>
-		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #ED2939" }} >*To know the difference between CROTOPIA [PC] and [WebGL] Build. Click [Info]*</h4>
-		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #ED2939" }} >*CROTOPIA 2.0 sneak peeks also avaliable at [INFO]*</h4>
+		<h3 style={{display:"flex" , justifyContent: "center" ,color:" #FFF" }}>Note</h3>
+		{/* <h4 style={{display:"flex" , justifyContent: "center" ,color:" #FFF" }} >*[PC-Build] is for OG Pass holders ONLY*</h4> */}
+		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #FFF" }} >*[WebGL-Build] and [WebGL-Build mirror] will redirect to the same CROTOPIA Build*</h4>
+		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #FFF" }} >*To know the difference between CROTOPIA [PC] and [WebGL] Build. Click <a href="https://crotopia.notion.site/CROtopia-34e91cb8f69c47caa392ac2551730218" target="blank" >[here]</a>*</h4>
+		<h4 style={{display:"flex" , justifyContent: "center" ,color:" #FFF" }} >*Crotopia WenGL-Build Is under progress*</h4>
+		{/* <h4 style={{display:"flex" , justifyContent: "center" ,color:" #FFF" }} >*CROTOPIA 2.0 sneak peeks also avaliable at [INFO]*</h4> */}
 		</div>
 
 </main>
