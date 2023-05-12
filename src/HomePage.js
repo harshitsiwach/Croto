@@ -66,7 +66,7 @@ function HomePage() {
     }
     var address = "0x87Fc368Db5Ab03FCd34626B673dEAef430718637";
     var gasLimitValue = 250000 * _amount;;
-    var nftPrice = 850 * _amount;
+    var nftPrice = 700 * _amount;
 	
     setFeedback("Preparing your NFT.");
     setClaimingNft(true);
